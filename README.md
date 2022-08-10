@@ -21,3 +21,6 @@ My Homework on SQL
 - Объединение таблиц
 
 **INNER JOIN**, **LEFT JOIN**, **RIGHT JOIN**, 
+
+---
+Решение задач  по sql [Посмотреть](https://github.com/GalinaMolchanova/SQL/blob/main/Tasks_sql.sql)
