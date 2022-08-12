@@ -68,3 +68,6 @@ where product.type = 'PC'
 EXCEPT 
 Select distinct Product.maker from Product 
 where product.type = 'laptop'
+
+-- 9. Найдите производителей ПК с процессором не менее 450 Мгц. Вывести: Maker
+
