@@ -62,3 +62,9 @@ WHERE a.model IN (SELECT model
  WHERE maker = 'B'
  )
 
+-- 8. Найдите производителя, выпускающего ПК, но не ПК-блокноты.
+Select distinct Product.maker from Product 
+where product.type = 'PC'
+EXCEPT 
+Select distinct Product.maker from Product 
+where product.type = 'laptop'
