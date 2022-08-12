@@ -70,4 +70,7 @@ Select distinct Product.maker from Product
 where product.type = 'laptop'
 
 -- 9. Найдите производителей ПК с процессором не менее 450 Мгц. Вывести: Maker
+Select distinct product.maker from Product
+join PC on PC.model = Product.model
+where PC.speed >= 450 and Product.type = 'PC'
 
