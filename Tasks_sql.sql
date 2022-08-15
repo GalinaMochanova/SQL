@@ -74,3 +74,5 @@ Select distinct product.maker from Product
 join PC on PC.model = Product.model
 where PC.speed >= 450 and Product.type = 'PC'
 
+-- 10. Найдите модели принтеров, имеющих самую высокую цену. Вывести: model, price
+
