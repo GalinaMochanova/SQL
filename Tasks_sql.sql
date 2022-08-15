@@ -15,10 +15,10 @@
 
 -- 1. Найдите номер модели, скорость и размер жесткого диска для всех ПК стоимостью менее 500 дол. Вывести: model, speed и hd
 
-Select Product.model, PC.speed, PC.hd 
-from Product
-join PC on Product.model = PC.model
-where PC.price < 500
+SELECT Product.model, PC.speed, PC.hd 
+FROM Product
+JOIN PC ON Product.model = PC.model
+WHERE PC.price < 500
 
 -- 2. Найдите производителей принтеров. Вывести: maker
 
