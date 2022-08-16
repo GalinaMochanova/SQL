@@ -80,4 +80,5 @@ from printer
 where printer.price = (select max(price) from printer)
 
 -- 11. Найдите среднюю скорость ПК.
+Select avg(pc.speed) from PC
 
