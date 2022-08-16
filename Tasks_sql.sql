@@ -79,3 +79,5 @@ Select printer.model, printer.price
 from printer
 where printer.price = (select max(price) from printer)
 
+-- 11. Найдите среднюю скорость ПК.
+
