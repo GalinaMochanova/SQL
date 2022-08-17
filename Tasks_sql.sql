@@ -27,9 +27,9 @@ FROM Product
 WHERE type = 'Printer'
 
 -- 3. Найдите номер модели, объем памяти и размеры экранов ПК-блокнотов, цена которых превышает 1000 дол.
-Select Laptop.model, Laptop.ram, Laptop.screen 
-from Laptop
-where laptop.price > 1000
+SELECT Laptop.model, Laptop.ram, Laptop.screen 
+FROM Laptop
+WHERE laptop.price > 1000
 
 -- 4. Найдите все записи таблицы Printer для цветных принтеров.
 Select * 
