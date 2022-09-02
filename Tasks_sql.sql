@@ -32,9 +32,9 @@ FROM Laptop
 WHERE laptop.price > 1000
 
 -- 4. Найдите все записи таблицы Printer для цветных принтеров.
-Select * 
-from Printer
-where Printer.color = 'y'
+SELECT * 
+FROM Printer
+WHERE Printer.color = 'y'
 
 -- 5. Найдите номер модели, скорость и размер жесткого диска ПК, имеющих 12x или 24x CD и цену менее 600 дол.
 Select PC.model, PC.speed, PC.hd 
